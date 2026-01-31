@@ -1,17 +1,16 @@
-git init
-uv venv venv
-for windows -> .\venv\Scripts\activate
-for Mac/Linux -> source venv/bin/activate
-Ctrl + Shift + P
+<p>git init</p>
+<p>uv venv venv</p>
+<p>for windows -> .\venv\Scripts\activate</p>
+<p>for Mac/Linux -> source venv/bin/activate</p>
+<p>
+    Ctrl + Shift + P
     Python: Select Interpreter
     .\venv\Scripts\python.exe
-
-mkdir app app/core app/db app/api app/models app/schemas app/tests
-uv pip install pydentic - for typescript 
-uv pip install passlib[bcrypt] - for password encrypted 
-uv pip freeze - fro check installed packages 
-
-
+</p>
+<p>mkdir app app/core app/db app/api app/models app/schemas app/tests</p>
+<p>uv pip install pydentic - for typescript </p>
+<p>uv pip install passlib[bcrypt] - for password encrypted </p>
+<p>uv pip freeze - fro check installed packages </p>
 
 <h2><b>install packages</b></h2>
 fastapi
